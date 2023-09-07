@@ -27,6 +27,10 @@ Source: https://ubuntu.com/blog/national-cyber-security-centre-publish-ubuntu-18
 
 This wiki will be used to document the network resources for the Widgets environment.
 
+![image](https://github.com/NPotter44/Networklab/assets/144384452/b149e5da-8c9c-4deb-b081-090f656b826e)
+
+
+
 firewall
   hostname = firewall
   FQDN = firewall.widget.localdomain 
@@ -162,5 +166,3 @@ No Impact
 Solution: Solution Type: Mitigation
 Disable the reported weak MAC algorithm(s).
 
-
-![image](https://github.com/NPotter44/Networklab/assets/144384452/75c2eb90-80d2-4711-ba5f-b153bbe578a3)
