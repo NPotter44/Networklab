@@ -27,9 +27,6 @@ Source: https://ubuntu.com/blog/national-cyber-security-centre-publish-ubuntu-18
 
 This wiki will be used to document the network resources for the Widgets environment.
 
-![image](https://github.com/NPotter44/Networklab/assets/144384452/e2e598d5-e29f-4619-a148-41dcebfc007d)
-
-
 firewall
   hostname = firewall
   FQDN = firewall.widget.localdomain 
