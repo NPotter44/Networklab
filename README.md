@@ -23,6 +23,8 @@ Source: https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/d
 Hardening Ubuntu Server 18.04
 Keeping system up to date. Create a non-root user with sudo privileges. Make a habit of logging into your Ubuntu 18.04 server using a non-root account. Use authentication Key pair to log to your server. Using a private/public key is considered safe because the keys are tough to guess. Disallow SSH password authentication. Disable remote root login. Whitelist users. We can limit the users that are allowed to log in SSH. Multi-Factor Authentication. Although this is not a conclusive list of all security tools and configurations that you should have on your Ubuntu 18.04 server, I hope you have found this useful and your server will now be just a bit more hard to break into.
 Source: https://ubuntu.com/blog/national-cyber-security-centre-publish-ubuntu-18-04-lts-security-guide
+
+
 This wiki will be used to document the network resources for the Widgets environment.
 
 firewall
@@ -159,3 +161,6 @@ Summary: The remote SSH server is configured to allow / support weak MAC algorit
 No Impact
 Solution: Solution Type: Mitigation
 Disable the reported weak MAC algorithm(s).
+
+
+![image](https://github.com/NPotter44/Networklab/assets/144384452/75c2eb90-80d2-4711-ba5f-b153bbe578a3)
