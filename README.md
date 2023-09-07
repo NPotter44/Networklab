@@ -63,57 +63,60 @@ www
   a-record created = static on dc.widgets.localdomain
   network info: static, 10.128.10.80/24, DMZ network
   services: webserver, wiki
+
+![image](https://github.com/NPotter44/Networklab/assets/144384452/8a895fa2-7f04-408b-8ab6-74bfce7fe5b7)
+
  
-Edit
+
 Greenbone Scan Results
 
-Edit
+
 Vulnerabilities
 
-Edit
+
 SSL/TLS: Deprecated SSLv2 SSLv3 Protocol detection
 * Summary: It was possible to detect the usage of the deprecated SSLv2 and/or SSLv3 protocol on the system.
 * Impact: An attacker might be able to use the known cryptographic flaws to eavesdrop the connection between clients and the service to get access to sensitive data transferred within the secured connection. Furthermore newly uncovered vulnerabilities in this protocols won't receive security updates anymore.
 * Solution: Solution Type Mitigation- It is recommended to disable the deprecated SSLv2 and/or SSLv3 protocols in favor of the TLSv1.2+ protocols. Please see the references for more information.
-Edit
+
 
 Weak(small) Public Key size(s)(ssh)
 * Summary: The remote SSH server uses a weak (too small) public key size.
 * Impact: A man-in-the-middle attacker can exploit this vulnerability to record the communication to decrypt the session key and even the messages.
 * Solution: Solution Type Mitigation- -⇐1024 bit 4 RSA based keys: Install a RSA public key length of 2048 bits or greater, or to switch to more secure key types.
-Edit
+
 
 SSL/TLS: Server certificate/certificate in chain with RSA keys less than 2048 bits
 * Summary: The remote SSL/TLS server certificate and/or any of the certificates in the certificate chain is using an RSA key with less than 2048 bits.
 *Impact: Using certificates with weak RSA key size can lead to unauthorized exposure of sensitive information.
 * Solution: Solution Type Mitigation- Replace the certificate with a stronger key and reissue the certificates it signed.
 
-Edit
+
 SSL/TLS: Server certificate/certificate in chain with RSA keys less than 1024 bits
 * Summary: The remote SSL/TLS server certificate and/or any of the certificates in the certificate chain is using a RSA key with less than 1024 bits.
 *Impact: Using certificates with weak RSA key size can lead to unauthorized exposure of sensitive information.
 * Solution: Solution Type Mitigation- Replace the certificate with a stronger key and reissue the certificates it signed.
 
-Edit
+
 Weak Key exchange (KEX) algorithm(s) supported (SSH)
 * Summary: The remote SSH server is configured to allow / support weak key exchange (KEX) algorithm(s).
 *Impact: An attack can quickly break individual connections.
 * Solution: Solution Type Mitigation- Disable the recorded weak KEX algorithm(s). 1024-bit MOTP group / prime KEX algorithms: Alternatively use elliptic-curve Diffie-Hellmann in general, e.g.Curve 25519.
 
-Edit
+
 
 SSL/TLS: Report Weak Cipher Suites
 * Summary: This routine reports all Weak SSL/TLS cipher suites accepted by a service.
 * No Impact
 * Solution: Solution Type Mitigation- The configuration of this services should be changed so that it does not accept the listed weak cipher suites anymore.
-Edit
+
 
 SSL/TLS: Report Null Cipher Suites
 * Summary: This routine reports all “Null” SSL/TLS cipher suites accepted by a service.
 * Impact: This could allow remote attackers to obtain sensitive information or have other, unspecified impacts.
 * Solution: Solution Type Mitigation- The configuration of this services should be changed so that it does not accept the listed “Null” cipher suites anymore.
 Please see the references for more resources supporting you in this task.
-Edit
+
 
 SSL/TLS: RSA Temporary Key Handling 'RSA_EXPORT' Downgrade Issue (FREAK)
 * Summary: This host is accepting 'RSA_EXPORT' cipher suites and is prone to man in the middle atatck.
