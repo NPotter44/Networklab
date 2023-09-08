@@ -6,7 +6,7 @@ This wiki will be used to document the network resources for the Widgets environ
  # Firewall 
 <p> Hostname = firewall </p> 
 <p> FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain </p> 
- # Network info
+ ## Network info
 
 win10 hostname = win10 FQDN = dc.widgets.localdomain a-record created = dynamically on dc.widgets.localdomain network info: dhcp, LAN network
 
