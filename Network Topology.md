@@ -21,14 +21,20 @@ Network resources for the Widgets environment.
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp dhcp, LAN network </p>
 
 # DC
-  <p> hostname = dc </p>
+  <p> Hostname = dc </p>
   <p> FQDN = dc.widgets.localdomain </p>
   <p> a-record created = automatically on dc.widgets.localdomain </p> 
   <b> Network info </b>
   <p>  &nbsp&nbsp&nbsp&nbsp&nbsp static, 10.128.0.10/24 </p> 
   <p>  &nbsp&nbsp&nbsp&nbsp&nbsp services: AD and DNS services </p>
 
-iis hostname = iis FQDN = iis.widgets.localdomain a-record created = dynamically on dc.widgets.localdomain network infor: static, 10.128.0.80/24, LAN network services: webserver
+#iis 
+  <p> Hostname = iis </p>
+  <p> FQDN = iis.widgets.localdomain </p>
+  <p> a-record created = dynamically on dc.widgets.localdomain </p>
+  <b> </b>Network info </b>
+  <p>  &nbsp&nbsp&nbsp&nbsp&nbsp static, 10.128.0.80/24, LAN network </p> 
+  <p>  &nbsp&nbsp&nbsp&nbsp&nbsp services: webserver </p>>
 
 www hostname = www FQDN = www.widgets.localdomain a-record created = static on dc.widgets.localdomain network info: static, 10.128.10.80/24, DMZ network services: webserver, wiki
 </html>
