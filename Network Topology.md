@@ -1,11 +1,14 @@
 This wiki will be used to document the network resources for the Widgets environment.
 
 <html>
- <style>
+ <head>
+   <style>
   ul {
    list-style-type:none;
    }
  </style>
+ </head>
+
 <body>
 
 Firewall 
