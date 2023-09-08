@@ -1,6 +1,6 @@
-<div class="title">
-    <h1> Network resources for the Widgets </h1>
-</div>
+
+# Network resources for the Widgets 
+
 
 <html>
  <body>
