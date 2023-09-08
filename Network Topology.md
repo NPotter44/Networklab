@@ -5,7 +5,8 @@ This wiki will be used to document the network resources for the Widgets environ
 
  # Firewall
   <p> Hostname = firewall </p> 
-  <p> FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain </p> 
+  <p> FQDN = firewall.widget.localdomain </p>
+  <p> a-record created = static on dc.widgets.localdomain </p> 
   <b> Network info </b>
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp wan is port1 on dhcp from cloud, connected to WAN-SWITCH </p> 
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp lan is port2 on 10.128.0.1/24, connected to LAN-SWITCH </p>  
