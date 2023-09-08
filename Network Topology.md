@@ -47,4 +47,5 @@ Network resources for the Widgets environment.
  </body>
 </html>
 
+![image](https://github.com/NPotter44/Networklab/assets/144384452/2ff0ace1-ee65-4601-bb0d-bc07fb8f61d5)
 
