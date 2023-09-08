@@ -3,7 +3,7 @@ This wiki will be used to document the network resources for the Widgets environ
 <html>
 <body>
 
-<p> #Firewall </p> 
+ # Firewall 
 <p> hostname = firewall </p> 
 <p> FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain </p>
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp network info: </p>
