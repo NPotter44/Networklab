@@ -3,9 +3,9 @@ This wiki will be used to document the network resources for the Widgets environ
 <html>
 <body>
 
-Firewall 
-hostname = firewall 
-FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain 
+<p> Firewall </p> 
+<p> hostname = firewall </p> 
+<p> FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain </p>
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp network info: </p>
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp wan is port1 on dhcp from cloud, connected to WAN-SWITCH </p> 
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp lan is port2 on 10.128.0.1/24, connected to LAN-SWITCH </p>  
