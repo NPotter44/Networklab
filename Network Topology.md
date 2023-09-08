@@ -12,6 +12,7 @@ This wiki will be used to document the network resources for the Widgets environ
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp dmz is port4 on 10.128.10.1/24, connected to DMZ-SWITCH </p> 
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp guest is port3 on 10.128.99.1/24,  not connected </p>
 
+ # WIN10
 win10 hostname = win10 FQDN = dc.widgets.localdomain a-record created = dynamically on dc.widgets.localdomain network info: dhcp, LAN network
 
 dc hostname = dc FQDN = dc.widgets.localdomain a-record created = automatically on dc.widgets.localdomain network info: static, 10.128.0.10/24 services: AD and DNS services
