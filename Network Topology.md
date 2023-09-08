@@ -1,8 +1,8 @@
 Network resources for the Widgets environment.
 
 <html>
-<body>
-
+ <body>
+ 
  # Firewall
   <p> Hostname = firewall </p> 
   <p> FQDN = firewall.widget.localdomain </p>
@@ -28,7 +28,7 @@ Network resources for the Widgets environment.
   <p>  &nbsp&nbsp&nbsp&nbsp&nbsp static, 10.128.0.10/24 </p> 
   <p>  &nbsp&nbsp&nbsp&nbsp&nbsp services: AD and DNS services </p>
 
-#iis 
+# iis 
   <p> Hostname = iis </p>
   <p> FQDN = iis.widgets.localdomain </p>
   <p> a-record created = dynamically on dc.widgets.localdomain </p>
@@ -36,6 +36,14 @@ Network resources for the Widgets environment.
   <p>  &nbsp&nbsp&nbsp&nbsp&nbsp static, 10.128.0.80/24, LAN network </p> 
   <p>  &nbsp&nbsp&nbsp&nbsp&nbsp services: webserver </p>>
 
-www hostname = www FQDN = www.widgets.localdomain a-record created = static on dc.widgets.localdomain network info: static, 10.128.10.80/24, DMZ network services: webserver, wiki
+# www 
+  <p> Hostname = www </p>
+  <p> FQDN = www.widgets.localdomain </p>
+  <p> a-record created = static on dc.widgets.localdomain </p>
+  <b> Network info </b> 
+  <p> &nbsp&nbsp&nbsp&nbsp&nbsp static, 10.128.10.80/24, DMZ network </p> 
+  <p> &nbsp&nbsp&nbsp&nbsp&nbsp services: webserver, wiki </p>
+
+ </body>
 </html>
-<body>
+
