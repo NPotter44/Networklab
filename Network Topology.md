@@ -34,7 +34,7 @@ Network resources for the Widgets environment.
   <p> a-record created = dynamically on dc.widgets.localdomain </p>
   <b> </b>Network info </b>
   <p>  &nbsp&nbsp&nbsp&nbsp&nbsp static, 10.128.0.80/24, LAN network </p> 
-  <p>  &nbsp&nbsp&nbsp&nbsp&nbsp services: webserver </p>>
+  <p>  &nbsp&nbsp&nbsp&nbsp&nbsp services: webserver </p>
 
 # www 
   <p> Hostname = www </p>
