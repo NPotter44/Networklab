@@ -2,15 +2,15 @@ This wiki will be used to document the network resources for the Widgets environ
 
 <html>
  <head>
+
+ </head>
+
+<body>
    <style>
   ul {
    list-style-type:none;
    }
  </style>
- </head>
-
-<body>
-
 Firewall 
 hostname = firewall 
 FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain 
