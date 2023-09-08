@@ -2,7 +2,7 @@ This wiki will be used to document the network resources for the Widgets environ
 
 <html>
  <style>
-  nobullet {
+  ul.nobullet {
    list-style-type:none;
    }
  </style>
