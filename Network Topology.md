@@ -1,4 +1,6 @@
-# Network resources for the Widgets environment.
+<div class="title">
+    <h1> Network resources for the Widgets </h1>
+</div>
 
 <html>
  <body>
