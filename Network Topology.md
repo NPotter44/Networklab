@@ -4,7 +4,6 @@ This wiki will be used to document the network resources for the Widgets environ
 <body>
 
  # Firewall
- 
   <p> Hostname = firewall </p> 
   <p> FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain </p> 
    ## Network info
