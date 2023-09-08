@@ -1,21 +1,13 @@
 This wiki will be used to document the network resources for the Widgets environment.
 
 <html>
- <head>
-
- </head>
-
 <body>
-   <style>
-  ul {
-   list-style-type:none;
-   }
- </style>
+
 Firewall 
 hostname = firewall 
 FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain 
  <ul>
-  <li>network info: </li>
+  <li> &emsp network info: </li>
   <li> wan is port1 on dhcp from cloud, connected to WAN-SWITCH </li> 
   <li> lan is port2 on 10.128.0.1/24, connected to LAN-SWITCH </li>  
   <li> dmz is port4 on 10.128.10.1/24, connected to DMZ-SWITCH </li> 
