@@ -2,7 +2,7 @@ This wiki will be used to document the network resources for the Widgets environ
 
 <html>
  <style>
-  ul.nobullet {
+  ul {
    list-style-type:none;
    }
  </style>
@@ -11,7 +11,7 @@ This wiki will be used to document the network resources for the Widgets environ
 Firewall 
 hostname = firewall 
 FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain 
- <ul class="nobullet">
+ <ul>
   <li>network info: </li>
   <li> wan is port1 on dhcp from cloud, connected to WAN-SWITCH </li> 
   <li> lan is port2 on 10.128.0.1/24, connected to LAN-SWITCH </li>  
