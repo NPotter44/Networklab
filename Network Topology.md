@@ -1,4 +1,4 @@
-Alt # Network resources for the Widgets environment.
+# Network resources for the Widgets environment.
 
 <html>
  <body>
