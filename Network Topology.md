@@ -15,7 +15,8 @@ Network resources for the Widgets environment.
 
  # WIN10
  <p> Hostname = win10 </p> 
- <p> FQDN = dc.widgets.localdomain a-record created = dynamically on dc.widgets.localdomain </p> 
+ <p> FQDN = dc.widgets.localdomain </p>
+ <p> a-record created = dynamically on dc.widgets.localdomain </p> 
  <b> Network info </b> 
  <p> &nbsp&nbsp&nbsp&nbsp&nbsp dhcp, LAN network </p>
 
