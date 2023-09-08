@@ -1,9 +1,11 @@
 This wiki will be used to document the network resources for the Widgets environment.
 
+<html>
+<body>
+<ul style="list-style-type:none;"> 
 Firewall 
 hostname = firewall 
 FQDN = firewall.widget.localdomain a-record created = static on dc.widgets.localdomain 
-<ul style="list-style-type:none;"> 
   <li> network info: </li> 
   <li> wan is port1 on dhcp from cloud, connected to WAN-SWITCH </li> 
   <li> lan is port2 on 10.128.0.1/24, connected to LAN-SWITCH </li>  
@@ -18,3 +20,5 @@ dc hostname = dc FQDN = dc.widgets.localdomain a-record created = automatically 
 iis hostname = iis FQDN = iis.widgets.localdomain a-record created = dynamically on dc.widgets.localdomain network infor: static, 10.128.0.80/24, LAN network services: webserver
 
 www hostname = www FQDN = www.widgets.localdomain a-record created = static on dc.widgets.localdomain network info: static, 10.128.10.80/24, DMZ network services: webserver, wiki
+</html>
+<body>
