@@ -1,4 +1,4 @@
-Alt-H1 Network resources for the Widgets environment.
+Alt-# Network resources for the Widgets environment.
 
 <html>
  <body>
