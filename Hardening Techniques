@@ -1,6 +1,6 @@
-Hardening Research Notes
+# Hardening Research Notes
 
-Notes on hardening go here.
+#### Notes on hardening go here.
 
 Hardening a FortiGate firewall.
 Using password policies such as character requirements password reuse and expiration, and login failure lockout to log into fortigate. Make sure it is in a physically secure location. Keep firmware up to date and use encrypted protocols. Back up the Fortigate configuration. Be sure to enable encryption when backing up the configuration, store the configuration file in a secure location, delete old configuration files that are no longer needed. Take precautions against Denial of service attack by, enabling DoS policies to incoming traffic. These include looking for anomalous traffic patterns, ensuring Fortigate is receving regular IPS signature updates from the FortiGuard network, adjust traffic rates if a traffic pattern has already been established.
