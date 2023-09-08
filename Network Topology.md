@@ -14,13 +14,17 @@ Network resources for the Widgets environment.
   <p> &nbsp&nbsp&nbsp&nbsp&nbsp guest is port3 on 10.128.99.1/24,  not connected </p>
 
  # WIN10
- <p> Hostname = win10 </p> 
- <p> FQDN = dc.widgets.localdomain </p>
- <p> a-record created = dynamically on dc.widgets.localdomain </p> 
- <b> Network info </b> 
- <p> &nbsp&nbsp&nbsp&nbsp&nbsp dhcp, LAN network </p>
+  <p> Hostname = win10 </p> 
+  <p> FQDN = dc.widgets.localdomain </p>
+  <p> a-record created = dynamically on dc.widgets.localdomain </p> 
+  <b> Network info </b> 
+  <p> &nbsp&nbsp&nbsp&nbsp&nbsp dhcp, LAN network </p>
 
-dc hostname = dc FQDN = dc.widgets.localdomain a-record created = automatically on dc.widgets.localdomain network info: static, 10.128.0.10/24 services: AD and DNS services
+# DC
+  <p> hostname = dc </p>
+  <p> FQDN = dc.widgets.localdomain </p>
+  <p> a-record created = automatically on dc.widgets.localdomain </p> 
+  <p> network info: static, 10.128.0.10/24 services: AD and DNS services </p>
 
 iis hostname = iis FQDN = iis.widgets.localdomain a-record created = dynamically on dc.widgets.localdomain network infor: static, 10.128.0.80/24, LAN network services: webserver
 
