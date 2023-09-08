@@ -24,7 +24,9 @@ Network resources for the Widgets environment.
   <p> hostname = dc </p>
   <p> FQDN = dc.widgets.localdomain </p>
   <p> a-record created = automatically on dc.widgets.localdomain </p> 
-  <p> network info: static, 10.128.0.10/24 services: AD and DNS services </p>
+  <b> Network info </b>
+  <p>  &nbsp&nbsp&nbsp&nbsp&nbsp static, 10.128.0.10/24 </p> 
+  <p>  &nbsp&nbsp&nbsp&nbsp&nbsp services: AD and DNS services </p>
 
 iis hostname = iis FQDN = iis.widgets.localdomain a-record created = dynamically on dc.widgets.localdomain network infor: static, 10.128.0.80/24, LAN network services: webserver
 
