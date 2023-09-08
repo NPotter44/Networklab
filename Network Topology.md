@@ -1,4 +1,4 @@
-This wiki will be used to document the network resources for the Widgets environment.
+Network resources for the Widgets environment.
 
 <html>
 <body>
