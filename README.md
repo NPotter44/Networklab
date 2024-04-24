@@ -1,6 +1,5 @@
 # Networklab
-The Network Tools & Technologies course lab scenario. In the scenario you work for a MSP who has been hired to build out a small business network. Your instructor will play the role of Senior Engineer for the MSP. You will follow documentation to build out the environment, if you need support, you can escalate to your Senior Engineer.
- 
+The Network Tools & Technologies course lab scenario. In the scenario you work for a MSP who has been hired to build out a small business network.
 You will build:
  
 A SMB network, with a LAN, DMZ, and Guest network.
