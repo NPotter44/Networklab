@@ -1,5 +1,5 @@
 # Networklab
-The Network Tools & Technologies course lab scenario. In the scenario you work for a MSP who has been hired to build out a small business network.
+The Network Tools & Technologieslab scenario. In the scenario you work for a MSP who has been hired to build out a small business network.
 You will build:
  
 A SMB network, with a LAN, DMZ, and Guest network.
